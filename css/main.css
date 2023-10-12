@@ -1,0 +1,91 @@
+.text-align-center {
+    text-align: center;
+}
+
+.row .justify-content-center {
+    color:white;
+}
+#myBoard {
+    max-width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+
+.highlight-white {
+    box-shadow: inset 0 0 3px 3px yellow;
+}
+
+.highlight-black {
+    box-shadow: inset 0 0 3px 3px blue;
+}
+
+.highlight-hint {
+    box-shadow: inset 0 0 3px 3px red;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-outline:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+h1, h2, p, label{
+    color: white;
+}
+
+#compVsCompBtn {
+    background-color: blue;
+    border: none;
+}
+
+#compVsCompBtn:hover {
+    background-color: #4107a2;
+    border: none;
+}
+
+#resetBtn {
+    background-color: #100735;
+    border:none;
+}
+
+#resetBtn:hover {
+    background-color: #e21afc;
+    border:none;
+}
+
+#undoBtn {
+    background-color: blue;
+    border: none;
+}
+
+#undoBtn:hover {
+    background-color: #4107a2;
+    border: none;
+}
+
+
+#redoBtn {
+    background-color: #100735;
+    border:none;
+}
+
+#redoBtn:hover {
+    background-color: #e21afc;
+    border:none;
+}
+
+a {
+    color: #e21afc;
+}
+
+a:hover {
+    color: #4107a2;
+}
+
